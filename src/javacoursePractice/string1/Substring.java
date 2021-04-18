@@ -1,0 +1,19 @@
+package javacoursePractice.string1;
+
+public class Substring {
+
+	public static void main(String[] args) {
+	  String str="abcd";
+	  subString(str);
+
+	}
+	
+	public static void subString(String str) {
+		for(int i=0;i<str.length();i++) {
+			for(int j=i+1;j<=str.length();j++) {
+				System.out.print(str.substring(i, j)+" ");
+			}
+		}
+	}
+
+}
