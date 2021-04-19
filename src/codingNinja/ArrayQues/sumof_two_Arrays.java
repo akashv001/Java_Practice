@@ -5,7 +5,7 @@ public class sumof_two_Arrays {
 	public static void main(String[] args) {
 		int[] arr1 = { 6, 2, 4 };
 		int[] arr2 = { 7, 5, 6 };
-		int[] ans = sumOfTwoArrays(arr1, arr2);
+		int[] ans = SumOfTwoArrays(arr1, arr2);
 		display(ans);
 	}
 
@@ -15,7 +15,7 @@ public class sumof_two_Arrays {
 		}
 	}
 
-	public static int[] sumOfTwoArrays(int[] arr1, int[] arr2) {
+	public static int[] SumOfTwoArrays(int[] arr1, int[] arr2) {
 
 	}
 
